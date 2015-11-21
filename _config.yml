@@ -1,0 +1,25 @@
+# url: https://y7kim.github.io
+# baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Cards Against Austerity
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+permalink: /:title/
+
+gems:
+    - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: English
+  -
+    scope:
+      path: _posts/fr
+    values:
+      layout: default
+      lang: Français
