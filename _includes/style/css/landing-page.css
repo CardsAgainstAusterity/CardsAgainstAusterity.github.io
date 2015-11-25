@@ -98,7 +98,21 @@ body{
   border-color: #CCC;
 }
 
+.text-submit{
+  font-size:24px;
+}
+
+.btn-submit:hover{
+  color: white;
+  background-color: #F63F48;
+  border-color: #444;
+}
+
 @media(max-width:767px) {
+  .intro-message h1 {
+    font-size: 5.5em;
+  }
+
   .intro-message {
     padding-bottom: 15%;
   }
@@ -195,7 +209,7 @@ body{
 
 footer {
   padding: 50px 0;
-  background-color: #f8f8f8;
+  background: url("../../img/whiteboard.jpg") fixed center top;
 }
 
 p.copyright {
