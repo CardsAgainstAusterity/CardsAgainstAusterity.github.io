@@ -34,16 +34,6 @@ body{
   font-weight: 400;
 }
 
-.flip-clock-wrapper {
-  margin: 0 auto;
-  display: inline-block;
-  text-align: center;
-  width: auto;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .img-circle {
   border-radius: 50%;
 }
