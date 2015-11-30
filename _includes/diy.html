@@ -1,21 +1,21 @@
-<a name="DIY"></a>
-<div class="content-section-a">
+<a name="ADDYOUROWN"></a>
+<div class="content-section-b">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h1 class="section-heading">Get Involved!</h1>
+        <h1 class="section-heading">{{page.suggestion.title}}</h1>
         <!-- <p class="lead">Add your ideas to the set with our <a href="#">card generator</a>!</p> -->
         <!-- <p class="lead">Add your ideas to the set. Each new card is a new strike at austerity!<br/><br/>(yes a strike, not a boycott)</p> -->
         <form class="form-vertical" action="//formspree.io/thomas.gauthier.c@gmail.com"  method="POST">
           <div class="form-group">
-            <textarea class="form-control text-submit" rows="4" placeholder="Add your ideas to the set. Each new card is a new strike at austerity! (yes a strike, not a boycott)" name="message"></textarea>
-            <input type="hidden" name="_next" value="#DIY" />
+            <textarea class="form-control text-submit" rows="4" placeholder="{{page.suggestion.placeholder}}" name="message"></textarea>
+            <input type="hidden" name="_next" value="/{{page.la}}/thanks#ADDYOUROWN" />
           </div>
           <div class="form-group">
             <!-- <div class="col-sm-offset-2 col-sm-10"> -->
-            <button type="submit" class="btn btn-submit btn-default">Defeat austerity</button>
+            <button type="submit" class="btn btn-submit btn-default">{{page.suggestion.button}}</button>
             <!-- </div> -->
           </div>
         </form>

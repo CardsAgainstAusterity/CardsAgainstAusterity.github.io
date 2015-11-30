@@ -1,26 +1,29 @@
 <!-- Page Content -->
-<div class="content-section-b">
+<a name="LEARN"></a>
+<div class="content-section-a">
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3 text-center">
         <div class="clearfix"></div>
-        <h1 class="section-heading">Learn about austerity</h1>
+        <h1 class="section-heading">{{page.ressources.title}}</h1>
         <p class="text-left lead">
-          To play this game, you need to know what is austerity.<br/>We hope you do. But if you don't, here are helpful ressources to get started:
-        </p>
-        <ul class="text-left lead">
-          <li>
+          {{page.ressources.text}}
+          <ul class="text-left lead">
+            {% for item in page.ressources.list %}
+            <li id="ressources">{{ item }}</li>
+            {% endfor %}
+            <!-- <li>
             <a href="http://solidarityconcordia.org/">Solidarity Concordia</a>
             <li>
-              <a href="http://austerite.iris-recherche.qc.ca/">Observatoire des conséquences des mesures d’austérité au Québec</a> (français)
-            </li>
-            <li>
-              <a href="#">Un mouvement, dix milliards de solutions</a> (français)
-            </li>
-          </ul>
-        </div>
-      </div>
+            <a href="http://austerite.iris-recherche.qc.ca/">Observatoire des conséquences des mesures d’austérité au Québec</a> (français)
+          </li>
+          <li>
+          <a href="#">Un mouvement, dix milliards de solutions</a> (français)
+        </li> -->
+      </ul>
     </div>
-    <!-- /.container -->
   </div>
-  <!-- /.content-section-a -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /.content-section-a -->

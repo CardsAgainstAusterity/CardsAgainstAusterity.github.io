@@ -17,9 +17,11 @@ defaults:
     values:
       layout: default
       lang: English
+      la: en
   -
     scope:
       path: _posts/fr
     values:
       layout: default
       lang: Français
+      la: fr

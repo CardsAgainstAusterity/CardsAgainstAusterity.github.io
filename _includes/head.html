@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,4 +31,16 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+  <script src="{{"/animation_" | append :page.la}}.js"></script>
+  <script type="text/javascript">
+  var scrollEventHandler = function()
+  {
+    window.scroll(0, window.pageYOffset)
+  }
+
+  window.addEventListener("scroll", scrollEventHandler, false);
+  </script>
+
 </head>

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Cards Against Austerity
-permalink: /fr
+permalink: /fr/thanks
 home: Accueil
+thanks: "<span>  <i class='fa fa-check'></i> Thanks!</span>"
 about:
     title : C'est quoi?
     text: "L'austérité te fatigue? On pense que l'austérité est une super opportunité pour s'amuser. Au régime minceur de l'état nous opposons notre rire gras. Pendant qu'ils coupent nous on découpe!"
