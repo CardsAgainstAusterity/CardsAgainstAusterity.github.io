@@ -29,7 +29,18 @@
         <li>
           <a href="#LEARN">{{page.ressources.title}}</a>
         </li>
-        {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+        {% if page.lang != "English" %}
+        <li class="lang">
+          <a href="/" class="Français">Français</a>
+        </li>
+        {% endif %}
+        {% if page.lang != "Français" %}
+        <li class="lang">
+          <a href="/en" class="English">English</a>
+        </li>
+        {% endif %}
+
+        <!-- {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
         {% for post in posts %}
         <li class="lang">
           {% if page.lang != post.lang %}
@@ -37,7 +48,7 @@
           {% break %}
           {% endif %}
         </li>
-        {% endfor %}
+        {% endfor %} -->
       </ul>
     </div>
     <!-- /.navbar-collapse -->
