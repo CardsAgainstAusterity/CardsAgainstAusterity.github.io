@@ -87,27 +87,27 @@ body{
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.btn-donate{
-  color: black;
+.btn-austerity{
+  color: #333;
   background-color: #FFF;
   border-color: #CCC;
 }
 
-.btn-donate:hover{
+.btn-austerity:hover{
   color: white;
   background-color: #F63F48;
-  border-color: #CCC;
+  border-color: rgba(0,0,0,0);
 }
 
-.btn-donate .icon-redcards{
+.btn-austerity .icon-redcards{
 display: none;
 }
 
-.btn-donate:hover .icon-redcards{
+.btn-austerity:hover .icon-redcards{
 display: inline;
 }
 
-.btn-donate:hover .icon-cards{
+.btn-austerity:hover .icon-cards{
 display: none;
 }
 
