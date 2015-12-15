@@ -4,7 +4,6 @@
 # Site settings
 title: Cards Against Austerity
 email: your-email@domain.com
-description: "Fight ongoing austerity measures in Quebec in a playful and mocking way."
 permalink: /:title/
 
 gems:
