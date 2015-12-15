@@ -14,10 +14,8 @@ var currentRed;
 var currentWhite;
 
 var reds = [ 'Quelle est le\npire cauchemar de\nPhilippe Couillard? ',
-'La lutte sera ___\nou ne sera pas.',
 'Le ___ nous\nfait la guerre,\nguerre au ___.',
 'Qu’est que\nPhilippe Couillard\nfaisait en Arabie\nSaoudite ?',
-'Ensemble on\ns’occupe\nde/des ___.',
 'Pourquoi couper\ndans l’aide social?',
 'Les jeunes de nos\njours sont ___.',
 'L’UQAM expulse\nneuf étudiant en\nraison de ___.',
