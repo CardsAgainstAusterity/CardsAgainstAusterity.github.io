@@ -31,8 +31,15 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+  
   <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
   <script src="{{"/animation_" | append :page.la}}.js"></script>
+  <script>
+  function increaseCounter(lang){
+    $.getJSON('http://badbauds.io/cardsagainstausterity/counter.php?lang=' + lang + '&callback=?', function(data){
+      console.log(data);
+    });
+  }
+  </script>
 
 </head>

@@ -9,7 +9,8 @@
             <div class="clearfix"></div>
             <h1 class="section-heading">Cards Against Austerity</h1>
             <p class="lead">{{page.about.text}}</p>
-            <a href="/assets/{{page.about.pdf}}" target="_blank" class="btn btn-lg btn-download"><span class="icon-file"></span> {{page.about.button}}</a>
+            <!-- increaseCounter is used for statistics -->
+            <a href="/assets/{{page.about.pdf}}" onclick="increaseCounter('{{page.la}}')" target="_blank" class="btn btn-lg btn-download"><span class="icon-file"></span> {{page.about.button}}</a>
           </div>
         </div>
         <div class="row" style="margin-top:80px;">
