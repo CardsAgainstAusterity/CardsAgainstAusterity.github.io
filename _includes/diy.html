@@ -8,7 +8,7 @@
         <h1 class="section-heading">{{page.suggestion.title}}</h1>
         <!-- <p class="lead">Add your ideas to the set with our <a href="#">card generator</a>!</p> -->
         <!-- <p class="lead">Add your ideas to the set. Each new card is a new strike at austerity!<br/><br/>(yes a strike, not a boycott)</p> -->
-        <form class="form-vertical" action="//formspree.io/thomas.gauthier.c@gmail.com"  method="POST">
+        <form class="form-vertical" action="//formspree.io/suggestions@cardsagainstausterity.com"  method="POST">
           <div class="form-group">
             <textarea class="form-control text-submit" rows="4" placeholder="{{page.suggestion.placeholder}}" name="message"></textarea>
             <input type="hidden" name="_next" value="/{{page.la}}/thanks#ADDYOUROWN" />
@@ -21,7 +21,7 @@
         </form>
       </div>
       <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-        <img class="img-responsive" src="{{ "/img/pic222.png" | prepend: site.baseurl }}" alt="Arch Linux boot menu">
+        <img class="img-responsive" src="{{site.baseurl}}/img/{{page.suggestion.img}}" alt="cards">
       </div>
     </div>
   </div>

@@ -9,17 +9,22 @@
             <div class="clearfix"></div>
             <h1 class="section-heading">Cards Against Austerity</h1>
             <p class="lead">{{page.about.text}}</p>
-            <a href="{{ "/assets/CardsAgainstAusterity.pdf" | prepend: site.baseurl }}" target="_blank" class="btn btn-lg btn-download"><i class="fa fa-file"></i> {{page.about.button}}</a>
+            <a href="/assets/{{page.about.pdf}}" target="_blank" class="btn btn-lg btn-download"><i class="fa fa-file"></i> {{page.about.button}}</a>
           </div>
         </div>
         <div class="row" style="margin-top:80px;">
 
           <div class="col-sm-12">
-            <p class="small-p">The game is free and will always be. But if you want to help the project go forward, we're are accepting donations trough PayPal. This money will help us print and distribute physical copies of the game that we aim to complete with your suggestions.</p>
+            <p class="small-p">{{page.about.donate_text}}</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="hosted_button_id" value="C3HGNFJYL483G">
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <button type="submit"class="btn btn-md btn-donate">
+                <span class="icon-redcards"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span>
+                <span class="icon-cards"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span>
+                {{page.about.donate_button}}
+              </button>
+              <!-- <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form></div>
           </div>

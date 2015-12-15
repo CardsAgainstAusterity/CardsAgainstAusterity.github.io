@@ -36,6 +36,11 @@ body{
   font-weight: 400;
 }
 
+.small-p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -68,6 +73,10 @@ body{
   font-weight: bold;
 }
 
+.intro-message .btn * {
+  vertical-align: middle;
+}
+
 .intro-divider {
   width: 400px;
   border-top: 1px solid #f8f8f8;
@@ -76,6 +85,30 @@ body{
 
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn-donate{
+  color: black;
+  background-color: #FFF;
+  border-color: #CCC;
+}
+
+.btn-donate:hover{
+  color: white;
+  background-color: #F63F48;
+  border-color: #CCC;
+}
+
+.btn-donate .icon-redcards{
+display: none;
+}
+
+.btn-donate:hover .icon-redcards{
+display: inline;
+}
+
+.btn-donate:hover .icon-cards{
+display: none;
 }
 
 .btn-download{
