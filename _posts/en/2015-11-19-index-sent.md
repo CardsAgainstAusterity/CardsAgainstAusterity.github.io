@@ -3,7 +3,7 @@ layout: default
 title: Cards Against Austerity
 permalink: "/en/thanks"
 home: Home
-thanks: "<span>  <i class='fa fa-check'></i> Thank you!</span>"
+thanks: "<span class="icon-check"></span> Thank you!</span>"
 about:
     title : About
     text: "Austerity's putting you down? We think austerity is a great opportunity to have some fun. So while the government is cutting in public funds, why don't you also cut something? That is, your own deck of Cards Against Austerity!"
